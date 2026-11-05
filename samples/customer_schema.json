@@ -1,0 +1,13 @@
+{
+  "name": "customer_import_v1",
+  "columns": {
+    "customer_id": {"type": "string", "required": true, "nullable": false},
+    "age": {"type": "integer", "required": true, "nullable": false, "min": 18, "max": 100},
+    "email": {"type": "string", "required": true, "nullable": true},
+    "signup_date": {"type": "date", "required": true, "nullable": false, "format": "%Y-%m-%d"},
+    "status": {"type": "string", "required": true, "nullable": false, "accepted_values": ["active", "inactive"]},
+    "score": {"type": "number", "required": true, "nullable": false, "min": 0, "max": 100},
+    "marketing_opt_in": {"type": "boolean", "required": true, "nullable": false}
+  },
+  "unique_keys": [["customer_id"], ["email"]]
+}
