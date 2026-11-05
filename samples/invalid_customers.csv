@@ -1,0 +1,11 @@
+customer_id,age,email,signup_date,status,score,marketing_opt_in
+,21,customer1@example.com,2025-01-01,active,51,true
+BAD-AGE,twenty,customer2@example.com,2025-01-02,inactive,52,false
+TOO-YOUNG,17,customer3@example.com,2025-01-03,active,53,true
+BAD-STATUS,24,customer4@example.com,2025-01-04,unknown,54,false
+DUPLICATE,25,,2025-01-05,active,55,true
+DUPLICATE,26,customer6@example.com,2025-01-06,inactive,56,false
+HIGH-SCORE,27,customer7@example.com,2025-01-07,active,120,true
+BAD-DATE,28,customer8@example.com,01/08/2025,inactive,58,false
+BAD-BOOL,29,customer9@example.com,2025-01-09,active,59,yes
+DUP-EMAIL,30,customer1@example.com,2025-01-10,inactive,60,false

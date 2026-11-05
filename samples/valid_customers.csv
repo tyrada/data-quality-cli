@@ -1,0 +1,11 @@
+customer_id,age,email,signup_date,status,score,marketing_opt_in
+C-0001,21,customer1@example.com,2025-01-01,active,51,true
+C-0002,22,customer2@example.com,2025-01-02,inactive,52,false
+C-0003,23,customer3@example.com,2025-01-03,active,53,true
+C-0004,24,customer4@example.com,2025-01-04,inactive,54,false
+C-0005,25,,2025-01-05,active,55,true
+C-0006,26,customer6@example.com,2025-01-06,inactive,56,false
+C-0007,27,customer7@example.com,2025-01-07,active,57,true
+C-0008,28,customer8@example.com,2025-01-08,inactive,58,false
+C-0009,29,customer9@example.com,2025-01-09,active,59,true
+C-0010,30,customer10@example.com,2025-01-10,inactive,60,false
